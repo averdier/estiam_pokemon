@@ -65,7 +65,7 @@ public class Tournament {
         } while (m1.equals(m2));
 
 
-        System.out.println(m1.getName() + " VS " + m2.getName());
+        System.out.println(m1 + " VS " + m2);
         m1.shoutBattle();
         m2.shoutBattle();
 
