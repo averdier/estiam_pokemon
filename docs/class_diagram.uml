@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="455.0">models.Tournament</node>
+    <node x="21.333333333333343" y="0.0">models.Pokemon</node>
+    <node x="131.0" y="713.0">client.main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="client.main" target="models.Tournament">
+      <point x="0.0" y="-25.5" />
+      <point x="71.5" y="104.0" />
+    </edge>
+    <edge source="client.main" target="models.Pokemon">
+      <point x="55.666666666666686" y="-25.5" />
+      <point x="270.1666666666667" y="688.0" />
+      <point x="296.5" y="688.0" />
+      <point x="296.5" y="430.0" />
+      <point x="307.16666666666663" y="430.0" />
+      <point x="114.33333333333329" y="202.5" />
+    </edge>
+    <edge source="models.Tournament" target="models.Pokemon">
+      <point x="71.5" y="-104.0" />
+      <point x="214.5" y="430.0" />
+      <point x="192.83333333333334" y="430.0" />
+      <point x="0.0" y="202.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9444219066937121" x="271.6019434066499" y="411.77469931271474" />
+  <SelectedNodes>
+    <node>models.Pokemon</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
